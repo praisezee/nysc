@@ -14,7 +14,7 @@ const Login = () => {
   }
   return (
     <main className="row w-100 img-bg">
-      <div className='col-8 col-lg-4 mx-auto my-auto border rounded shadow py-5 bg-opacity-25 bg-light'>
+      <div className='col-8 col-lg-4 mx-auto my-auto border rounded shadow py-5 bg-opacity-75 bg-light'>
       {isLogged?<div className="justify-content-center d-flex mb-1">
         <div className="spinner-grow text-success mx-1">
             <span className='visual-hidden'></span>
@@ -31,7 +31,7 @@ const Login = () => {
         </div>
         <LoginForm handleSubmit={handleSubmit} isLogged={isLogged}/>
         <Link className='nav-link my-auto w-50 text-center' to='/'>
-          <p className="text-primary h6">Forgot Password or E-mail?</p>
+          <p className="mx-auto text-primary h6">Forgot Password or E-mail?</p>
         </Link>
       </div>
       
