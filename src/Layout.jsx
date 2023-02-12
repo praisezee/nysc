@@ -6,12 +6,12 @@ import Modal from './components/Modal'
 
 const Layout = () => {
   return (
-    <div className='App'>
+    <>
       <Header/>
       <Modal/>
       <Outlet/>
       <Footer/>
-    </div>
+    </>
   )
 }
 
