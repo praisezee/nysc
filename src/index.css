@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,18 +6,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+
 }
+
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 #root{
-  width: 100%;
-  height: 100%;
-  border: 0;
-  margin: 0;
-  padding: 0;
+  flex-grow: 1;
+  display: flex;
 }
 .slide-in{
   animation-name: slide;
@@ -26,10 +35,14 @@ code {
   
 }
 main{
-  min-height: 82vh;
+  min-height: 90vh;
+  min-width: 100% !important;
   border: 0;
   margin: 0;
   padding: 0;
+}
+footer{
+  
 }
 .my-list{
   list-style: lower-roman;
@@ -38,9 +51,11 @@ main{
 
 .img-bg{
   background: url(./img/bg.jpg) ;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
-  background-position: center;
+  background-position-x: center;
+  background-position-y: bottom;
+
 }
 .center{
   display: grid;

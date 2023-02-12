@@ -8,8 +8,9 @@ import Info from './home/Info'
 const Home = () => {
   return (
     <>
+      <hr className='text-danger opacity-100 my-0 border border-danger border-1'/>
       <Header title='Welcome to nysc portal'/>
-      <main className='container my-5 '>
+      <main className='container my-5 px-5'>
         <Registration/>
         <About/>
         <hr className='w-75 opacity-75 mx-auto d-none d-lg-block mt-2 mb-4'/>

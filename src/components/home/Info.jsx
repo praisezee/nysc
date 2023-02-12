@@ -2,7 +2,7 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <section className='row mt-5 mb-5 pb-4'>
+    <section className='row mt-5 mb-3'>
       <p className="h3">Important Information</p>
       <hr className='opacity-50 border border-2 border-dark'/>
       <article className='col-6 border  rounded my-auto'>
