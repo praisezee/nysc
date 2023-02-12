@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <section className="modal expand-modal" tabindex="-1" id='faq'>
+    <section className="modal expand-modal" tabIndex="-1" id='faq'>
       <section className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <section className="modal-content">
           <article className="modal-header">

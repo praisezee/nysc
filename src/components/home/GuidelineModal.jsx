@@ -2,7 +2,7 @@ import React from 'react'
 
 const GuidelineModal = ({Link}) => {
   return (
-      <section className="modal expand-modal" tabindex="-1" id='guideline'>
+      <section className="modal expand-modal" tabIndex="-1" id='guideline'>
       <section className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <section className="modal-content">
           <article className="modal-header">

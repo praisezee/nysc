@@ -31,6 +31,10 @@ main{
   margin: 0;
   padding: 0;
 }
+.my-list{
+  list-style: lower-roman;
+  margin: 0 auto;
+}
 
 .img-bg{
   background: url(./img/bg.jpg) ;

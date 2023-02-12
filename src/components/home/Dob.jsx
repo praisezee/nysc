@@ -2,7 +2,7 @@ import React from 'react'
 
 const Dob = () => {
   return (
-      <section className="modal expand-modal" tabindex="-1" id='dob'>
+      <section className="modal expand-modal" tabIndex="-1" id='dob'>
       <section className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <section className="modal-content">
           <article className="modal-header">
