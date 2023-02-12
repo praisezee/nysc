@@ -27,7 +27,7 @@ const Login = () => {
             <span className='visual-hidden'></span>
           </div>
         </div>: null}
-        <div className='alert alert-success py-2 '>
+        <div className='alert alert-success py-2 text-start'>
           <p className='h5'>Existing User Login</p>
         </div>
         <LoginForm handleSubmit={handleSubmit} isLogged={isLogged}/>
