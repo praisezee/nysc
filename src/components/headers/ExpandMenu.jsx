@@ -6,7 +6,7 @@ const ExpandMenu = () => {
   return (
     <ul className='navbar-nav mb-2 mb-lg-0'>
             <li className='nav-item px-1 h5'>
-              <Link to='/' className='nav-link'>Home</Link>
+              <Link to='/' className='nav-link' id='collapsible-navbar-dropdown'>Home</Link>
             </li>
             <li className='nav-item px-1 h5'>
               <Link to='/' className='nav-link'>Payment status</Link>
