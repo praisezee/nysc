@@ -11,11 +11,11 @@ const Dob=()=> {
   return (
       
     <>
-      <article className="p-3 col-6 col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
-          <div className="p-3  shadow rounded border ">
+      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+          <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize">Change of date of birth</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={canlendar} alt="" className='img-fluid w-75 mx-auto my-3'/>
+          <img src={canlendar} alt="" className='img-fluid mx-auto '/>
           </div>
         </article> 
 

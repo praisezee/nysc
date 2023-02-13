@@ -12,11 +12,11 @@ const ForeginModal=()=> {
   return (
       
     <>
-      <article className="p-3 col-6 col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
-          <div className="shadow border rounded p-3">
+      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+          <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize">Foreign <abbr title="Prospective Corp Member">P.C.M</abbr> Requirement</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={graduate} alt="" className='img-fluid mx-auto my-4'/>
+          <img src={graduate} alt="" className='img-fluid mx-auto '/>
           </div>
         </article> 
 

@@ -12,11 +12,11 @@ const PaymentModal=()=> {
   return (
       
     <>
-      <article className="p-3 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
-          <div className="shadow p-5 border rounded">
-          <p className="text-center h6 text-capitalize">payment guidelines</p>
+      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+          <div className="shadow border rounded p-1 my-2">
+          <p className="text-center h6 text-capitalize">online payment guidelines</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={payment} alt="" className='img-fluid w-100 mx-auto my-2'/>
+          <img src={payment} alt="" className='img-fluid mx-auto '/>
           </div>
         </article> 
 
