@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <div className="row">
-      <section className='container text-center'>
-      <div className="row g-3">
-      <Link to='registration' className='p-3 col-8 mx-auto col-lg-4 text-center my-3 nav-link'>
-        <article className="slide-down border rounded p-3 shadow">
+    <div className="row my-4">
+      <section className='container-fluid text-center'>
+      <div className="row g-2">
+      <Link to='registration' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow'>
+        <article className="slide-down p-3">
         <img src={Cert} alt="" className='img-fluid mt-1 rounded w-75 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Verify Certificates</p>
@@ -19,8 +19,8 @@ const About = () => {
         </article>
         </Link>
         
-        <Link to='/' className='p-3 col-8 mx-auto col-lg-4 text-center my-3 nav-link'>
-          <article className="slide-up border rounded p-3 shadow">
+        <Link to='/' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow border rounded'>
+          <article className="slide-up p-3">
             <img src={Card} alt="" className='img-fluid mt-1 rounded w-50 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Payment Status</p>
@@ -28,8 +28,8 @@ const About = () => {
             <p className="text-info text-center">To check your Payment Status</p>
           </article>
         </Link>
-        <Link to='/' className='p-3 col-8 mx-auto col-lg-4 text-center my-3 nav-link'>
-          <article className="slide-down border rounded p-3 shadow">
+        <Link to='/' className='p-2 col-8 mx-auto col-lg-3 text-center my-3 nav-link border rounded shadow'>
+          <article className="slide-down p-3">
             <img src={Home} alt="" className='img-fluid mt-1 rounded w-50'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Visit the main site</p>
