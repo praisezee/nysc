@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import graduate from '../../img/graduate.png'
 
 
 const ForeginModal=()=> {
@@ -16,7 +15,7 @@ const ForeginModal=()=> {
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto  my-2">Foreign <abbr title="Prospective Corp Member">P.C.M</abbr> Requirement</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={graduate} alt="" className='img-fluid mx-auto my-3 '/>
+          <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300372/Nysc/graduate_n77df1.png' alt="" className='img-fluid mx-auto my-3 '/>
           </div>
         </article> 
 

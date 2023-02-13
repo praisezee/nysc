@@ -1,7 +1,4 @@
 import React from 'react'
-import Cert from '../../img/cert.png'
-import Card from '../../img/card.png'
-import Home from '../../img/home.png'
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -11,7 +8,7 @@ const About = () => {
       <div className="row g-2">
       <Link to='registration' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow'>
         <article className="slide-down p-3">
-        <img src={Cert} alt="" className='img-fluid mt-1 rounded w-75 mt-0'/>
+        <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/2945066_28518-removebg-preview_avha20.png' alt="" className='img-fluid mt-1 rounded w-75 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Verify Certificates</p>
             </div>
@@ -21,7 +18,7 @@ const About = () => {
         
         <Link to='/' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow border rounded'>
           <article className="slide-up p-3">
-            <img src={Card} alt="" className='img-fluid mt-1 rounded w-50 mt-0'/>
+            <img src="https://res.cloudinary.com/dnqjgz03q/image/upload/v1676319691/card_nxiru3.png" alt="" className='img-fluid mt-1 rounded w-50 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Payment Status</p>
             </div>
@@ -30,7 +27,7 @@ const About = () => {
         </Link>
         <Link to='/' className='p-2 col-8 mx-auto col-lg-3 text-center my-3 nav-link border rounded shadow'>
           <article className="slide-down p-3">
-            <img src={Home} alt="" className='img-fluid mt-1 rounded w-50'/>
+            <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300529/Nysc/home-interface-button-symbol_vtljpe.png' alt="" className='img-fluid mt-1 rounded w-50'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
               <p className="text-capitalize text-success my-3">Visit the main site</p>
             </div>

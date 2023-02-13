@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import { BsDoorOpen } from 'react-icons/bs'
 
+
 const Registration = () => {
   const [registration] = useState(false)
   const [batch] = useState('')

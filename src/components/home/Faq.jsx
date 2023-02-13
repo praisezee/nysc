@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import faq from '../../img/FAQ.png'
 import {Collapse} from 'react-bootstrap'
 
 const Faq=()=> {
@@ -17,7 +16,7 @@ const Faq=()=> {
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto my-2">Frequently Asked Questions</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={faq} alt="" className='img-fluid mx-auto my-3'/>
+          <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/FAQ_mhyzjc.png' alt="" className='img-fluid mx-auto my-3'/>
           </div>
         </article> 
 

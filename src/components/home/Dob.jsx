@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import canlendar from '../../img/calendar.png'
 
 const Dob=()=> {
   const [show, setShow] = useState(false);
@@ -15,7 +14,7 @@ const Dob=()=> {
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto my-2">Change of date of birth</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={canlendar} alt="" className='img-fluid mx-auto my-3'/>
+          <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/calendar_tyk5yo.png' alt="" className='img-fluid mx-auto my-3'/>
           </div>
         </article> 
 
