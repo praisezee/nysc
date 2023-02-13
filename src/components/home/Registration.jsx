@@ -11,7 +11,7 @@ const Registration = () => {
   return (
       <section className='col-lg-6 mx-auto'>
         {!registration?(
-          <div className='my-3  text-center border rounded'>
+          <div className='my-4 p-3  text-center border rounded'>
             <p className='my-3 h5 text-capitalize'>No active Registration</p>
           </div>
         ) :(
@@ -21,10 +21,10 @@ const Registration = () => {
         </Link>
         )
         }
-        <Link to='login' className='nav-link text-center my-3'>
-          <BsDoorOpen className='h2'/>
+        <Link to='login' className='nav-link text-center my-4 p-3'>
+          <BsDoorOpen className='h1'/>
         </Link>
-        <Link to='remobilization' className='nav-link text-center border rounded my-3'>
+        <Link to='remobilization' className='nav-link text-center border rounded my-4 p-3'>
           <p className='text-danger text-capitalize h5'>New: online application for remobilization</p>
           <p className='text-info text-capitalize'>click here to apply for remobilization</p>
         </Link>

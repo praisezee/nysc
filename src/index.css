@@ -35,6 +35,32 @@ code {
   animation-direction: alternate;
   
 }
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  /* transition: var(--transition); */
+  cursor: pointer;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-center {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.links {
+  height: 0;
+  overflow: hidden;
+
+}
 main{
   width: 100% !important;
   border: 0;
@@ -90,6 +116,14 @@ main{
   animation-name: expand-out;
   animation-duration: 0.1s;
   animation-direction: alternate;
+}
+
+
+@media screen and (min-width:992px){
+  .links {
+    height: auto;
+    display: flex;
+  }
 }
 
 
@@ -163,3 +197,4 @@ main{
     transform: scale(1);
   }
 }
+
