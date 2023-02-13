@@ -15,9 +15,9 @@ const Faq=()=> {
     <>
       <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
           <div className="shadow border rounded p-1 my-2">
-          <p className="text-center h6 text-capitalize">Frequently Asked Questions</p>
+          <p className="text-center h6 text-capitalize mx-auto px-3 my-2">Frequently Asked Questions</p>
           <hr className='opacity-50 mx-auto w-50'/>
-          <img src={faq} alt="" className='img-fluid mx-auto my-auto'/>
+          <img src={faq} alt="" className='img-fluid mx-auto my-3'/>
           </div>
         </article> 
 
