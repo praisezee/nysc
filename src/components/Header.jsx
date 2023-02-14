@@ -10,7 +10,7 @@ const Header = () => {
   return (
   <Navbar collapseOnSelect expand="lg" bg='light' varient='light' className='sticky-top px-5 shadow'>
     <Navbar.Brand className='d-flex'>
-      <a href='/' data-rr-ui-event-key='/' className="nav-link d-flex w-50">
+      <a href='/' data-rr-ui-event-key='/' className="nav-link d-flex my-img">
       <img src={logo} alt="" className='nav-link img-fluid w-25 expand-image'/>
       <div className='d-none d-lg-block w-75 my-auto mx-2 slide-in'>
         <p className='text-success text-uppercase h5'>national youth service corp</p>
