@@ -4,7 +4,11 @@ import {Collapse} from 'react-bootstrap'
 
 const Faq=()=> {
   const [show, setShow] = useState(false);
-  const [open, setOpen] = useState(false);
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+  const [open4, setOpen4] = useState(false);
+  const [open5, setOpen5] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -32,8 +36,8 @@ const Faq=()=> {
             </div>
             <ol>
               <li>
-                <p className="bg-secondary px-2 bg-opacity-25 broder rounded" aria-expanded={open} onClick={()=>setOpen(!open)} role='button' aria-controls='whytopay'>Why are Nigerian youths being asked to pay to serve their country?</p>
-                <Collapse in={open}>
+                <p className="alert alert-secondary px-2 bg-opacity-25 broder rounded" aria-expanded={open1} onClick={()=>setOpen1(!open1)} role='button' aria-controls='whytopay'>Why are Nigerian youths being asked to pay to serve their country?</p>
+                <Collapse in={open1}>
                   <div id="whytopay">
                     <div className="card card-body mb-2">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae saepe porro ullam aliquid? Aut, debitis. Quibusdam ratione neque expedita! Doloremque suscipit vel accusantium itaque vitae molestias laudantium autem aliquam quas.
@@ -42,36 +46,44 @@ const Faq=()=> {
                 </Collapse>
               </li>
               <li>
-                <p className="bg-secondary px-2 bg-opacity-25 broder rounded" aria-expanded={open} onClick={()=>setOpen(!open)} role='button' aria-controls='callupletter'>Why are corps members being forced to pay for their call-up letters?</p>
-                <div className="collapse" id="callupletter">
-                  <div className="card card-body mb-2">
+                <p className="alert alert-secondary px-2 bg-opacity-25 broder rounded" aria-expanded={open2} onClick={()=>setOpen2(!open2)} role='button' aria-controls='callupletter'>Why are corps members being forced to pay for their call-up letters?</p>
+                <Collapse in={open2}>
+                  <div id="callupletter">
+                  <div className="card card-body mb-2" >
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae saepe porro ullam aliquid? Aut, debitis. Quibusdam ratione neque expedita! Doloremque suscipit vel accusantium itaque vitae molestias laudantium autem aliquam quas.
                   </div>
-                </div>
+                  </div>
+                </Collapse>
               </li>
               <li>
-                <p className="bg-secondary px-2 bg-opacity-25 broder rounded" data-bs-toggle='collapse' role='button' data-bs-target='#amountpaid'>Why ask prospective corps members to pay N3000 just to print call-up letters?</p>
-                <div className="collapse" id="amountpaid">
-                  <div className="card card-body mb-2">
+                <p className="alert alert-secondary px-2 bg-opacity-25 broder rounded" role='button'aria-expanded={open3} onClick={()=>setOpen3(!open3)} aria-controls='amountpaid'>Why ask prospective corps members to pay N3000 just to print call-up letters?</p>
+                <Collapse in={open3}>
+                  <div id="amountpaid">
+                  <div className="card card-body mb-2" >
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae saepe porro ullam aliquid? Aut, debitis. Quibusdam ratione neque expedita! Doloremque suscipit vel accusantium itaque vitae molestias laudantium autem aliquam quas.
                   </div>
-                </div>
+                  </div>
+                </Collapse>
               </li>
               <li>
-                <p className="bg-secondary px-2 bg-opacity-25 broder rounded" data-bs-toggle='collapse' role='button' data-bs-target='#doubt'>Is the initiative not extortionist and insensitive?</p>
-                <div className="collapse" id="doubt">
+                <p className="alert alert-secondary px-2 bg-opacity-25 broder rounded" role='button'aria-expanded={open4} onClick={()=>setOpen4(!open4)} aria-controls='doubt'>Is the initiative not extortionist and insensitive?</p>
+                <Collapse in={open4}>
+                  <div id="doubt">
                   <div className="card card-body mb-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae saepe porro ullam aliquid? Aut, debitis. Quibusdam ratione neque expedita! Doloremque suscipit vel accusantium itaque vitae molestias laudantium autem aliquam quas.
                   </div>
-                </div>
+                  </div>
+                </Collapse>
               </li>
               <li>
-                <p className="bg-secondary px-2 bg-opacity-25 broder rounded" data-bs-toggle='collapse' role='button' data-bs-target='#quo'>Why not maintain the status quo?</p>
-                <div className="collapse" id="quo">
+                <p className="alert alert-secondary px-2 bg-opacity-25 broder rounded" role='button'aria-expanded={open5} onClick={()=>setOpen5(!open5)} aria-controls='quo'>Why not maintain the status quo?</p>
+                <Collapse in={open5}>
+                  <div id="quo">
                   <div className="card card-body mb-2">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae saepe porro ullam aliquid? Aut, debitis. Quibusdam ratione neque expedita! Doloremque suscipit vel accusantium itaque vitae molestias laudantium autem aliquam quas.
                   </div>
-                </div>
+                  </div>
+                </Collapse>
               </li>
             </ol>
             </Modal.Body>

@@ -6,7 +6,7 @@ const About = () => {
     <div className="row my-4">
       <section className='container-fluid text-center'>
       <div className="row g-2">
-      <Link to='registration' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow'>
+      <Link to='https://verify.nysc.org.ng' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow'>
         <article className="slide-down p-3">
         <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/2945066_28518-removebg-preview_avha20.png' alt="" className='img-fluid mt-1 rounded w-75 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
@@ -16,7 +16,7 @@ const About = () => {
         </article>
         </Link>
         
-        <Link to='/' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow border rounded'>
+        <Link to='verify-payment' className='p-1 col-8 mx-auto col-lg-3 text-center my-3 nav-link shadow border rounded'>
           <article className="slide-up p-3">
             <img src="https://res.cloudinary.com/dnqjgz03q/image/upload/v1676319691/card_nxiru3.png" alt="" className='img-fluid mt-1 rounded w-50 mt-0'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">

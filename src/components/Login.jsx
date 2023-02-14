@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <div className="container-fluid img-bg">
       <main className="d-flex justify-content-center align-items-center h-75">
-      <div className='col-12 col-md-8 text-center col-lg-4 px-3 border rounded shadow py-4 bg-opacity-75 bg-light'>
+      <div className='col-10 col-md-8 text-center col-lg-4 px-3 border rounded shadow py-4 bg-opacity-75 bg-light'>
       {isLogged?<div className="justify-content-center d-flex mb-1">
         <div className="spinner-grow text-success mx-1">
             <span className='visual-hidden'></span>

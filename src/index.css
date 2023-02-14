@@ -78,6 +78,10 @@ main{
   margin: 0 auto;
 }
 
+.height-100{
+  height: 100vh;
+}
+
 .img-bg{
   background: url(https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/DSC_0726_Easy-Resize.com_1_klj4tt.jpg) ;
   background-repeat: repeat;

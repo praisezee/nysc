@@ -6,7 +6,7 @@ const ExpandMenu = () => {
   return (
     <div className='navbar-nav mb-2 mb-lg-0'>
       <a href='/' data-rr-ui-event-key='/' className='nav-link' id='collapsible-navbar-dropdown'>Home</a>
-      <a href='/' data-rr-ui-event-key='/'  className='nav-link'>Payment status</a>
+      <a href='verify-payment' data-rr-ui-event-key='/'  className='nav-link'>Payment status</a>
       <a href='/' data-rr-ui-event-key='/'  className='nav-link'>Contact Us</a>
       <a href='/login' data-rr-ui-event-key='/login'  className='nav-link'>
         <BsPersonCircle className='h2'/>
