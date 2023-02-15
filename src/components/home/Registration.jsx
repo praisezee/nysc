@@ -16,7 +16,7 @@ const Registration = () => {
             <p className='my-3 h5 text-capitalize'>No active Registration</p>
           </div>
         ) :(
-        <Link to='registration' className='mt-4 mb-2 bg-danger text-white nav-link text-center border rounded'>
+        <Link to='register' className='mt-4 mb-2 bg-danger text-white nav-link text-center border rounded'>
           <p className='my-3 h5 text-capitalize'>Mobilization Batch {batch}, {year}</p>
           <p className='bg-light text-danger w-75 mx-auto rounded'>From</p>
         </Link>
