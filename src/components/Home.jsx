@@ -18,7 +18,6 @@ const Home = () => {
         <hr className='w-75 opacity-75 mx-auto d-none d-lg-block mt-2 mb-4'/>
         <Info/>
       </main>
-      
     </>
   )
 }
