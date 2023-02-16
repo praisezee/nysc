@@ -1,5 +1,4 @@
 import React from 'react'
-import {BsEnvelope,BsLock} from 'react-icons/bs'
 import Button from './Button'
 import { Row,Col, FormControl, FloatingLabel } from 'react-bootstrap'
 

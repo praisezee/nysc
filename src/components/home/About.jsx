@@ -25,7 +25,7 @@ const About = () => {
             <p className="text-info text-center">To check your Payment Status</p>
           </article>
         </Link>
-        <Link to='/' className='p-2 col-8 mx-auto col-lg-3 text-center my-3 nav-link border rounded shadow'>
+        <Link to='https://nysc.gov.ng' className='p-2 col-8 mx-auto col-lg-3 text-center my-3 nav-link border rounded shadow'>
           <article className="slide-down p-3">
             <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300529/Nysc/home-interface-button-symbol_vtljpe.png' alt="" className='img-fluid mt-1 rounded w-50'/>
             <div className="text-center border rounded alert alert-success py-0 my-0">
