@@ -18,6 +18,19 @@ body {
   height: 100%;
 }
 
+.Main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+
+.dashboard{
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
 .big{
   width: 25%;
   height: 4rem;

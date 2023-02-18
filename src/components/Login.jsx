@@ -1,16 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import LoginForm from './auth/LoginForm'
 
 const Login = () => {
   const [isLogged, setIsLogged] = useState(false)
+  const navigate = useNavigate()
   const handleSubmit = (e) =>{
     e.preventDefault()
     setIsLogged(true)
-    /* setTimeout(()=>{
+    setTimeout(()=>{
       setIsLogged(false)
-    },9000) */
+      navigate('../dashboard')
+    },3000)
   }
   return (
     <div className="container-fluid img-bg">
