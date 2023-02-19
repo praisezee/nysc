@@ -14,8 +14,8 @@ const Header = () => {
     <Container>
       <NavbarBrand>
         <Link to='/'>
-        <img src="/logo.svg" alt="" width='60' height='60' className='d-inline-block align-top expand-img'/>{''}
-        <div className='d-none d-lg-inline-block w-75 my-auto mx-2 slide-in'>
+        <img src="/logo.svg" alt="" width='60' height='60' className='d-inline-block align-top expand-image'/>{''}
+        <div className='d-none d-md-inline-block w-75 my-auto mx-2 slide-in'>
           <p className='text-success text-uppercase h5'>national youth service corp</p>
           <p className='text-danger text-uppercase text-center mx-2'><BsDot className='text-bold h4'/>service and humanity<BsDot className='text-bold h4'/></p>
         </div>
