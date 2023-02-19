@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import {Collapse} from 'react-bootstrap'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Faq=()=> {
   const [show, setShow] = useState(false);
@@ -16,13 +17,15 @@ const Faq=()=> {
   return (
       
     <>
-      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+      <AnimationOnScroll animateOnce animateIn=' expand-out' className="p-2 col-6  col-lg-3 text-center">
+      <article  role='button'  onClick={handleShow}>
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto my-2">Frequently Asked Questions</p>
           <hr className='opacity-50 mx-auto w-50'/>
           <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/FAQ_mhyzjc.png' alt="" className='img-fluid mx-auto my-3'/>
           </div>
-        </article> 
+        </article>
+      </AnimationOnScroll>
 
       <Modal show={show} onHide={handleClose} centered scrollable>
         <Modal.Header closeButton>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Modal from 'react-bootstrap/Modal';
 
 
@@ -11,13 +12,15 @@ const ForeginModal=()=> {
   return (
       
     <>
-      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+      <AnimationOnScroll animateOnce animateIn='expand-out' className="p-2 col-6  col-lg-3 text-center">
+        <article  role='button'  onClick={handleShow}>
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto  my-2">Foreign <abbr title="Prospective Corp Member">P.C.M</abbr> Requirement</p>
           <hr className='opacity-50 mx-auto w-50'/>
           <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300372/Nysc/graduate_n77df1.png' alt="" className='img-fluid mx-auto my-3 '/>
           </div>
-        </article> 
+        </article>
+      </AnimationOnScroll>
 
       <Modal show={show} onHide={handleClose} centered scrollable>
         <Modal.Header closeButton>

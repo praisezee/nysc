@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Modal from 'react-bootstrap/Modal';
 
 const Dob=()=> {
@@ -10,13 +11,15 @@ const Dob=()=> {
   return (
       
     <>
-      <article className="p-2 col-6  col-lg-3 text-center expand-out" role='button'  onClick={handleShow}>
+      <AnimationOnScroll animateIn='expand-out' animateOnce className="p-2 col-6  col-lg-3 text-center">
+      <article  role='button'  onClick={handleShow}>
           <div className="shadow border rounded p-1 my-2">
           <p className="text-center h6 text-capitalize mx-auto my-2">Change of date of birth</p>
           <hr className='opacity-50 mx-auto w-50'/>
           <img src='https://res.cloudinary.com/dnqjgz03q/image/upload/v1676300530/Nysc/calendar_tyk5yo.png' alt="" className='img-fluid mx-auto my-3'/>
           </div>
         </article> 
+      </AnimationOnScroll>
 
       <Modal show={show} onHide={handleClose} centered scrollable>
         <Modal.Header closeButton>
