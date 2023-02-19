@@ -19,7 +19,7 @@ const ExpandMenu = () => {
       <NavLink eventKey={4}>
         <Link to='/login'  className='nav-link'>
           <BsPersonCircle className='h2'/>
-          <span className='mx-1 d-lg-none h5 text-bold'>Login</span>
+          <span className='mx-1 d-md-none h5 text-bold'>Login</span>
         </Link>
       </NavLink>
     </>
