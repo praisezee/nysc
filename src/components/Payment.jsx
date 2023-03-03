@@ -4,6 +4,7 @@ import remita from '../img/remita.png'
 
 const Payment = () => {
   return (
+    <main className='mt-5 pt-5'>
     <div className="container-fluid height-100">
       <main className="d-flex justify-content-center align-items-center h-75">
       <div className='col-10 col-md-8 text-center col-lg-4 px-3 border rounded shadow py-4 bg-opacity-75 bg-light'>
@@ -19,6 +20,7 @@ const Payment = () => {
       </div>
     </main>
     </div>
+    </main>
   )
 }
 

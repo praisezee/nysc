@@ -10,7 +10,7 @@ const Header = () => {
 
   
   return (
-    <Navbar bg='light' sticky='top' className='shadow' collapseOnSelect expand="md" variant='light'>
+    <Navbar bg='light' fixed='top' className='shadow' collapseOnSelect expand="md" variant='light'>
     <Container>
       <NavbarBrand>
         <Link to='/'>

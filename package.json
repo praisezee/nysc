@@ -1,5 +1,6 @@
 {
-  "name": "tutorial",
+  "name": "Nysc Project",
+  "author":"Apus Industries",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
